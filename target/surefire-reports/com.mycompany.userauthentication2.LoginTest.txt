@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.userauthentication2.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.224 sec <<< FAILURE!
-testCheckPasswordComplexityFailure(com.mycompany.userauthentication2.LoginTest)  Time elapsed: 0.063 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.214 sec <<< FAILURE!
+testCheckUserNameCorrectlyFormatted(com.mycompany.userauthentication2.LoginTest)  Time elapsed: 0.053 sec  <<< ERROR!
 java.lang.UnsupportedOperationException: Not supported yet.
-	at com.mycompany.userauthentication2.Login.checkPasswordComplexity(Login.java:117)
-	at com.mycompany.userauthentication2.LoginTest.testCheckPasswordComplexityFailure(LoginTest.java:42)
+	at com.mycompany.userauthentication2.Login.checkUserName(Login.java:110)
+	at com.mycompany.userauthentication2.LoginTest.testCheckUserNameCorrectlyFormatted(LoginTest.java:22)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
